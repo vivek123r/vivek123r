@@ -1,14 +1,14 @@
 # Hi there, I'm Vivek! 👋
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Welcome+to+my+GitHub+profile!;Flutter+and+Full+Stack+Developer;Always+learning+new+things;Let's+build+something+amazing!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Welcome+to+my+GitHub+profile!;Flutter+and+React+Developer;Always+learning+new+things;Let's+build+something+amazing!" alt="Typing SVG" />
 </div>
 
 ## 🚀 About Me
 
 I'm an IT graduate from Viswajyothi College of Engineering and Technology with a passion for building real-world applications. I specialize in mobile app development with Flutter and have experience in creating AI-powered browser extensions and system optimization tools. I'm always exploring new technologies and ways to turn ideas into impactful solutions.
 
-- 🌟 Currently exploring **advanced JavaScript and cloud technologies**
+- 🌟 Currently exploring **Machine learning,AI and cloud technologies**
 - 💼 Open to collaborating on **mobile apps and open source projects**
 - 🤔 Interested in **cloud, automation, and scalable app development**
 - 💌 Reach me at: **vivek987pm@gmail.com**
@@ -66,16 +66,14 @@ I'm an IT graduate from Viswajyothi College of Engineering and Technology with a
 ## 🎯 Current Focus
 
 - Developing mobile apps with Flutter
-- Enhancing AI-integrated Chrome extensions
-- Optimizing game FPS via quality adaptation
+- Devoloping web applications with React
 - Exploring cloud and DevOps (AWS, automation)
 
 ## 💌 Let's Connect!
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/your-handle)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/vivek-r-015008188))
 [![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=react&logoColor=white)](https://your-portfolio.com)
 [![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vivek987pm@gmail.com)
 
