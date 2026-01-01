@@ -42,19 +42,6 @@ I'm an IT graduate from Viswajyothi College of Engineering and Technology with a
 
 </div>
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivek123r&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170" />
-</div>
-
-
-## 📈 Activity Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vivek123r&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
-</div>
-
 ## 🎯 Current Focus
 
 - Developing mobile apps with Flutter
