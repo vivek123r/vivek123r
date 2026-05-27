@@ -8,7 +8,7 @@
 
 I'm an IT graduate from Viswajyothi College of Engineering and Technology with a passion for building real-world applications. I specialize in mobile app development with Flutter and have experience in creating websites using React . I'm always exploring new technologies and ways to turn ideas into impactful solutions.
 
-- 🌟 Currently exploring **Machine learning,AI and cloud technologies**
+- 🌟 Currently exploring **AI and cloud technologies**
 - 💼 Open to collaborating on **mobile apps and open source projects**
 - 🤔 Interested in **cloud, automation,scalable app development, n8n workdlows**
 - 💌 Reach me at: **vivek987pm@gmail.com**
