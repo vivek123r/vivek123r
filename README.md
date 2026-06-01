@@ -1,73 +1,153 @@
-# Hi there, I'm Vivek! 👋
+# Hey, I'm Vivek! 👋
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Welcome+to+my+GitHub+profile!;Agentic+ai;Always+learning+new+things;Let's+build+something+amazing!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0891b2&center=true&vCenter=true&width=500&lines=Full-Stack+Software+Engineer;AI+%26+Agentic+Systems+Builder;React+%26+Flutter+Specialist;Cloud+Infrastructure+Engineer" alt="Typing SVG" />
 </div>
+
+---
 
 ## 🚀 About Me
 
-I'm an IT graduate from Viswajyothi College of Engineering and Technology with a passion for building real-world applications. I specialize in mobile app development with Flutter and have experience in creating websites using React . I'm always exploring new technologies and ways to turn ideas into impactful solutions.
+I'm a **full-stack software engineer** specializing in **AI-powered systems**, **automation pipelines**, and **cross-platform applications**. I build production-grade solutions that combine intelligent AI agents, scalable backend infrastructure, and intuitive frontends.
 
-- 🌟 Currently exploring **AI and cloud technologies**
-- 💼 Open to collaborating on **mobile apps and open source projects**
-- 🤔 Interested in **cloud, automation,scalable app development, n8n workdlows**
-- 💌 Reach me at: **vivek987pm@gmail.com**
-- 🚀 Fun fact: I debug with `console.log()` and proud of it!
+Currently a final-year IT student at Viswajyothi College of Engineering & Technology, I've shipped multiple projects involving **LLM integration**, **multi-agent orchestration**, and **cloud infrastructure** at scale.
+
+- 🤖 **Specialization**: AI agents (LangGraph), LLM integration, agentic automation
+- 🏗️ **Full-Stack**: React, Node.js, Flutter, Python
+- ☁️ **Cloud**: AWS (EC2, S3, IAM, CloudWatch), Docker, Kubernetes
+- 🔧 **Automation**: n8n workflows, API integration, data pipelines
+- 💼 **Open to**: Full-stack roles, AI/backend positions, startup collaboration
+
+---
 
 ## 🛠️ Tech Stack
 
+### **Languages**
+Python • JavaScript • Dart • SQL • HTML5 • CSS3
+
+### **Frontend & Mobile**
+React • Next.js • Flutter • Tailwind CSS • Bootstrap
+
+### **Backend & APIs**
+Node.js • REST APIs • WebSockets • JWT Authentication • Jest
+
+### **Databases & Storage**
+PostgreSQL • MySQL • MongoDB • SQLite • Firebase • AWS S3
+
+### **AI & Automation**
+LangGraph (Multi-Agent Orchestration) • LLM/Generative AI APIs • Prompt Engineering • Vector Databases • n8n Automation • Semantic Search
+
+### **Cloud & DevOps**
+AWS (EC2, S3, IAM, CloudWatch) • Docker • Kubernetes • GitHub CI/CD • Git
+
+---
+
+## ⚡ Featured Projects
+
+### 🎯 **Multi-Agent Product Recommendation Engine**
+**Tech Stack**: LangGraph, LLM APIs, Node.js, React, AWS  
+Architected a **production-grade 8-agent pipeline** across Amazon, YouTube, and web data sources with intelligent ranking and concurrent analysis:
+- Engineered **5 concurrent specialized analyzers** delivering ranked results in **15–20 seconds** per query
+- Implemented **100+ SSE streaming events** per search with adaptive confidence scoring across 3 LLM calls
+- Optimized agent orchestration using LangGraph for seamless inter-agent communication
+- Deployed on AWS with real-time monitoring and error recovery
+
+---
+
+### 🧪 **AI-Extension Builder (Chrome Extension Generator)**
+**Tech Stack**: LangGraph, LLM APIs, JavaScript, React  
+Built an intelligent agent that converts **natural-language prompts into production-ready Chrome extensions** in under 30 seconds:
+- Designed a **parse→plan→generate→validate pipeline** with self-correction loops
+- Eliminated manual scaffolding entirely through intelligent code generation
+- Integrated semantic validation for generated code ensuring quality and compatibility
+- Reduced development friction from hours to seconds
+
+---
+
+### 📧 **AI-Powered Email Automation Pipeline**
+**Tech Stack**: n8n, LLMs, Gmail API, WhatsApp API, Google Calendar API  
+Architected an intelligent automation workflow integrating email, messaging, and calendar systems:
+- **Saved 5+ hours** of manual work per week through intelligent scheduling
+- Achieved **zero data loss** over weeks of unattended production operation via robust retry logic
+- Integrated Gmail, WhatsApp, and Google Calendar with LLM-powered smart responses
+- Implemented structured error logging and recovery mechanisms for reliability at scale
+
+---
+
+### 📊 **Real-Time System Monitor (Python + Flutter)**
+**Tech Stack**: Python, Flutter, WebSockets, AWS  
+Built a cross-platform remote monitoring tool for system telemetry with **sub-200ms latency**:
+- Engineered **real-time streaming** of CPU, RAM, and network metrics via WebSockets
+- Implemented remote command execution with on-device privacy (zero third-party cloud)
+- Achieved ultra-low latency through optimized data serialization and WebSocket protocol
+- Delivered native mobile experience on iOS & Android
+
+---
+
+## 💼 Professional Experience
+
+### **AWS Intern** | Cydez Technologies
+- Provisioned and managed **AWS EC2 and S3 infrastructure** using Python and Bash automation scripts
+- Reduced deployment time by **20%** through intelligent infrastructure automation
+- Implemented **IAM least-privilege roles** and configured CloudWatch dashboards for real-time system monitoring
+- Maintained **99.9% system uptime** with robust monitoring and alerting
+
+---
+
+## 🎓 Education & Certifications
+
+**Bachelor of Technology in Information Technology**  
+Viswajyothi College of Engineering and Technology | Vazhakulam, Kerala  
+Expected Graduation: May 2026 | GPA: 7.36/10
+
+**Certifications**:
+- **Meta Front-End Developer** — Meta / Coursera
+- **Google IT Automation with Python** — Google / Coursera
+- **AWS Cloud Technical Essentials** — AWS / Coursera
+
+---
+
+## 📈 What I'm Working On
+
+- 🤖 Advanced multi-agent systems and LLM reasoning optimization
+- 🚀 Scalable full-stack applications with real-time capabilities
+- ☁️ Cloud-native architecture and serverless patterns
+- 📱 Cross-platform mobile app development with Flutter
+- 🔧 Automation workflows and low-code integration platforms
+
+---
+
+## 📊 GitHub Stats
+
 <div align="center">
-
-### Languages
-![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-
-### Frameworks & Libraries
-![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
-
-### Tools & Technologies
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/-Google%20Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
-
-
+  <img src="https://github-readme-stats.vercel.app/api?username=vivek123r&theme=tokyonight&show_icons=true&count_private=true" alt="GitHub Stats" />
 </div>
 
-## 🎯 Current Focus
-
-- Developing mobile apps with Flutter
-- Devoloping web applications with React
-- Exploring cloud and DevOps (AWS, automation)
-
-## 💌 Let's Connect!
-
 <div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/vivek-r-015008188))
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=react&logoColor=white)](https://your-portfolio.com)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vivek987pm@gmail.com)
-
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vivek123r&theme=tokyonight" alt="GitHub Streak" />
 </div>
 
-## 💡 Random Dev Quote
+---
+
+## 🤝 Let's Connect!
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
+
+[![Email](https://img.shields.io/badge/Email-vivek987pm%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vivek987pm@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-vivek--r--015008188-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vivek-r-015008188)
+[![Phone](https://img.shields.io/badge/Phone-8590609366-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:8590609366)
+[![Portfolio](https://img.shields.io/badge/Portfolio-vivek.dev-000000?style=for-the-badge&logo=firefox&logoColor=white)](https://your-portfolio.com)
+
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=vivek123r&style=flat-square&color=blue" alt="Profile Views" />
-
-  **Thanks for visiting! ⭐ Star some repositories if you find them interesting!**
+  <img src="https://komarev.com/ghpvc/?username=vivek123r&style=flat-square&color=0891b2" alt="Profile Views" />
+  
+  **⭐ If my projects interest you, feel free to star them! Happy to collaborate on exciting ideas.**
 </div>
+
+---
+
+### 💡 *"The best code is the one that solves real problems at scale."*
