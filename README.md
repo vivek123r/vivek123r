@@ -1,373 +1,140 @@
+# Hey, I'm Vivek! 👋
 
-<style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:var(--font-sans);color:var(--color-text-primary)}
-.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
-
-.hero{padding:2rem 1.5rem 1.5rem;border-bottom:0.5px solid var(--color-border-tertiary)}
-.hero-top{display:flex;align-items:center;gap:16px;margin-bottom:1rem}
-.avatar{width:64px;height:64px;border-radius:50%;background:#0891b2;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:500;color:#fff;flex-shrink:0}
-.hero h1{font-size:22px;font-weight:500;margin-bottom:2px}
-.hero-sub{font-size:13px;color:var(--color-text-secondary);margin-bottom:8px}
-.hero-badges{display:flex;flex-wrap:wrap;gap:6px}
-.hb{font-size:11px;padding:3px 10px;border-radius:99px;font-weight:500;border:0.5px solid transparent}
-.hb-teal{background:#E1F5EE;color:#0F6E56;border-color:#5DCAA5}
-.hb-purple{background:#EEEDFE;color:#3C3489;border-color:#AFA9EC}
-.hb-amber{background:#FAEEDA;color:#633806;border-color:#EF9F27}
-.hb-green{background:#EAF3DE;color:#27500A;border-color:#97C459}
-@media(prefers-color-scheme:dark){
-  .hb-teal{background:#085041;color:#9FE1CB;border-color:#0F6E56}
-  .hb-purple{background:#26215C;color:#CECBF6;border-color:#534AB7}
-  .hb-amber{background:#412402;color:#FAC775;border-color:#854F0B}
-  .hb-green{background:#173404;color:#C0DD97;border-color:#3B6D11}
-}
-
-.stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;padding:1rem 1.5rem;border-bottom:0.5px solid var(--color-border-tertiary)}
-.stat{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:10px 12px;text-align:center}
-.stat-num{font-size:20px;font-weight:500;color:var(--color-text-primary)}
-.stat-lbl{font-size:11px;color:var(--color-text-secondary);margin-top:2px}
-
-.tabs{display:flex;border-bottom:0.5px solid var(--color-border-tertiary);overflow-x:auto;padding:0 1.5rem}
-.tab{padding:10px 14px;font-size:13px;cursor:pointer;border:none;background:none;color:var(--color-text-secondary);white-space:nowrap;border-bottom:2px solid transparent;transition:color 0.15s}
-.tab.active{color:#0891b2;border-bottom-color:#0891b2;font-weight:500}
-.tab:hover:not(.active){color:var(--color-text-primary)}
-
-.panel{display:none;padding:1.25rem 1.5rem}
-.panel.active{display:block}
-
-.section-label{font-size:11px;font-weight:500;color:var(--color-text-secondary);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:12px}
-
-.about-bio{font-size:13px;line-height:1.7;color:var(--color-text-secondary);margin-bottom:1.25rem}
-.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:1.25rem}
-.about-card{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:12px 14px}
-.about-card .lbl{font-size:11px;color:var(--color-text-secondary);margin-bottom:3px;text-transform:uppercase;letter-spacing:0.05em}
-.about-card .val{font-size:13px;font-weight:500}
-.currently-row{display:flex;flex-direction:column;gap:6px}
-.currently-item{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--color-text-secondary)}
-.currently-item i{font-size:16px;color:#0891b2}
-
-.skill-group{margin-bottom:1rem}
-.skill-group h3{font-size:11px;font-weight:500;color:var(--color-text-secondary);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:8px}
-.pills{display:flex;flex-wrap:wrap;gap:6px}
-.pill{font-size:12px;padding:4px 10px;background:var(--color-background-secondary);border:0.5px solid var(--color-border-tertiary);border-radius:99px;color:var(--color-text-primary)}
-.pill-hot{background:#E1F5EE;border-color:#5DCAA5;color:#0F6E56}
-@media(prefers-color-scheme:dark){.pill-hot{background:#085041;border-color:#0F6E56;color:#9FE1CB}}
-
-.proj-card{border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:14px 16px;margin-bottom:10px;background:var(--color-background-primary);cursor:pointer;transition:border-color 0.15s}
-.proj-card:hover{border-color:var(--color-border-secondary)}
-.proj-card.open{border-color:#0891b2}
-.proj-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:6px}
-.proj-title{font-size:14px;font-weight:500}
-.proj-stack{font-size:11px;color:var(--color-text-secondary);margin-bottom:6px}
-.proj-desc{font-size:13px;color:var(--color-text-secondary);line-height:1.5}
-.proj-stats{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
-.proj-stat{font-size:11px;background:var(--color-background-secondary);padding:3px 8px;border-radius:99px;color:var(--color-text-secondary)}
-.proj-detail{overflow:hidden;max-height:0;transition:max-height 0.3s ease}
-.proj-detail.open{max-height:300px}
-.proj-detail ul{padding:10px 0 2px 1rem;display:flex;flex-direction:column;gap:4px}
-.proj-detail li{font-size:12px;color:var(--color-text-secondary);line-height:1.5}
-.chevron{font-size:16px;color:var(--color-text-secondary);transition:transform 0.2s;flex-shrink:0}
-.chevron.open{transform:rotate(180deg)}
-
-.timeline{position:relative;padding-left:20px}
-.timeline::before{content:'';position:absolute;left:6px;top:6px;bottom:6px;width:0.5px;background:var(--color-border-tertiary)}
-.tl-item{position:relative;margin-bottom:1.25rem}
-.tl-dot{position:absolute;left:-17px;top:4px;width:8px;height:8px;border-radius:50%;border:0.5px solid var(--color-border-secondary);background:var(--color-background-primary)}
-.tl-dot.active{background:#0891b2;border-color:#0891b2}
-.tl-title{font-size:14px;font-weight:500;margin-bottom:2px}
-.tl-meta{font-size:12px;color:var(--color-text-secondary);margin-bottom:6px}
-.tl-item ul{padding-left:1rem}
-.tl-item li{font-size:12px;color:var(--color-text-secondary);line-height:1.6}
-
-.cert-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:1.25rem}
-.cert-card{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:12px;text-align:center}
-.cert-icon{font-size:22px;margin-bottom:6px;color:var(--color-text-secondary)}
-.cert-name{font-size:12px;font-weight:500;line-height:1.4;margin-bottom:2px}
-.cert-by{font-size:11px;color:var(--color-text-secondary)}
-
-.connect-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:1.25rem}
-.connect-btn{display:flex;align-items:center;gap:10px;padding:12px 14px;border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-md);text-decoration:none;color:var(--color-text-primary);background:var(--color-background-primary);cursor:pointer;transition:background 0.15s}
-.connect-btn:hover{background:var(--color-background-secondary)}
-.cb-icon{width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:17px;flex-shrink:0}
-.cb-label{font-size:11px;color:var(--color-text-secondary)}
-.cb-val{font-size:12px;font-weight:500}
-.cb-mail .cb-icon{background:#FAECE7;color:#993C1D}
-.cb-li .cb-icon{background:#E6F1FB;color:#185FA5}
-.cb-gh .cb-icon{background:#EEEDFE;color:#3C3489}
-.cb-web .cb-icon{background:#EAF3DE;color:#27500A}
-@media(prefers-color-scheme:dark){
-  .cb-mail .cb-icon{background:#4A1B0C;color:#F5C4B3}
-  .cb-li .cb-icon{background:#042C53;color:#B5D4F4}
-  .cb-gh .cb-icon{background:#26215C;color:#CECBF6}
-  .cb-web .cb-icon{background:#173404;color:#C0DD97}
-}
-.status-row{display:flex;align-items:center;gap:8px;padding:10px 14px;background:var(--color-background-secondary);border-radius:var(--border-radius-md);font-size:13px;margin-bottom:1rem}
-.status-dot{width:8px;height:8px;border-radius:50%;background:#22c55e;flex-shrink:0}
-.quote-block{border-left:2px solid #0891b2;padding:10px 14px;font-size:13px;font-style:italic;color:var(--color-text-secondary);border-radius:0}
-</style>
-
-<h2 class="sr-only">Vivek R — interactive developer portfolio preview</h2>
-
-<div class="hero">
-  <div class="hero-top">
-    <div class="avatar">VR</div>
-    <div>
-      <h1>Vivek R</h1>
-      <p class="hero-sub">Full-stack engineer · AI agents · Kerala, India</p>
-      <div class="hero-badges">
-        <span class="hb hb-teal">LangGraph</span>
-        <span class="hb hb-purple">React · Flutter</span>
-        <span class="hb hb-amber">AWS · Docker</span>
-        <span class="hb hb-green">Open to work</span>
-      </div>
-    </div>
-  </div>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0891b2&center=true&vCenter=true&width=500&lines=Full-Stack+Software+Engineer;AI+%26+Agentic+Systems+Builder;React+%26+Flutter+Specialist;Cloud+Infrastructure+Engineer" alt="Typing SVG" />
 </div>
 
-<div class="stats-row">
-  <div class="stat"><div class="stat-num">4</div><div class="stat-lbl">Projects shipped</div></div>
-  <div class="stat"><div class="stat-num">8</div><div class="stat-lbl">AI agents built</div></div>
-  <div class="stat"><div class="stat-num">3</div><div class="stat-lbl">Certifications</div></div>
-  <div class="stat"><div class="stat-num">20%</div><div class="stat-lbl">Deploy time saved</div></div>
+---
+
+## 🚀 About Me
+
+I'm a **full-stack software engineer** specializing in **AI-powered systems**, **automation pipelines**, and **cross-platform applications**. I build production-grade solutions that combine intelligent AI agents, scalable backend infrastructure, and intuitive frontends.
+
+Currently a final-year IT student at Viswajyothi College of Engineering & Technology, I've shipped multiple projects involving **LLM integration**, **multi-agent orchestration**, and **cloud infrastructure** at scale.
+
+- 🤖 **Specialization**: AI agents (LangGraph), LLM integration, agentic automation
+- 🏗️ **Full-Stack**: React, Node.js, Flutter, Python
+- ☁️ **Cloud**: AWS (EC2, S3, IAM, CloudWatch), Docker, Kubernetes
+- 🔧 **Automation**: n8n workflows, API integration, data pipelines
+- 💼 **Open to**: Full-stack roles, AI/backend positions, startup collaboration
+
+---
+
+## 🛠️ Tech Stack
+
+### **Languages**
+Python • JavaScript • Dart • SQL • HTML5 • CSS3
+
+### **Frontend & Mobile**
+React • Next.js • Flutter • Tailwind CSS • Bootstrap
+
+### **Backend & APIs**
+Node.js • REST APIs • WebSockets • JWT Authentication • Jest
+
+### **Databases & Storage**
+PostgreSQL • MySQL • MongoDB • SQLite • Firebase • AWS S3
+
+### **AI & Automation**
+LangGraph (Multi-Agent Orchestration) • LLM/Generative AI APIs • Prompt Engineering • Vector Databases • n8n Automation • Semantic Search
+
+### **Cloud & DevOps**
+AWS (EC2, S3, IAM, CloudWatch) • Docker • Kubernetes • GitHub CI/CD • Git
+
+---
+
+## ⚡ Featured Projects
+
+### 🎯 **Multi-Agent Product Recommendation Engine**
+**Tech Stack**: LangGraph, LLM APIs, Node.js, React, AWS  
+Architected a **production-grade 8-agent pipeline** across Amazon, YouTube, and web data sources with intelligent ranking and concurrent analysis:
+- Engineered **5 concurrent specialized analyzers** delivering ranked results in **15–20 seconds** per query
+- Implemented **100+ SSE streaming events** per search with adaptive confidence scoring across 3 LLM calls
+- Optimized agent orchestration using LangGraph for seamless inter-agent communication
+- Deployed on AWS with real-time monitoring and error recovery
+
+---
+
+### 🧪 **AI-Extension Builder (Chrome Extension Generator)**
+**Tech Stack**: LangGraph, LLM APIs, JavaScript, React  
+Built an intelligent agent that converts **natural-language prompts into production-ready Chrome extensions** in under 30 seconds:
+- Designed a **parse→plan→generate→validate pipeline** with self-correction loops
+- Eliminated manual scaffolding entirely through intelligent code generation
+- Integrated semantic validation for generated code ensuring quality and compatibility
+- Reduced development friction from hours to seconds
+
+---
+
+### 📧 **AI-Powered Email Automation Pipeline**
+**Tech Stack**: n8n, LLMs, Gmail API, WhatsApp API, Google Calendar API  
+Architected an intelligent automation workflow integrating email, messaging, and calendar systems:
+- **Saved 5+ hours** of manual work per week through intelligent scheduling
+- Achieved **zero data loss** over weeks of unattended production operation via robust retry logic
+- Integrated Gmail, WhatsApp, and Google Calendar with LLM-powered smart responses
+- Implemented structured error logging and recovery mechanisms for reliability at scale
+
+---
+
+### 📊 **Real-Time System Monitor (Python + Flutter)**
+**Tech Stack**: Python, Flutter, WebSockets, AWS  
+Built a cross-platform remote monitoring tool for system telemetry with **sub-200ms latency**:
+- Engineered **real-time streaming** of CPU, RAM, and network metrics via WebSockets
+- Implemented remote command execution with on-device privacy (zero third-party cloud)
+- Achieved ultra-low latency through optimized data serialization and WebSocket protocol
+- Delivered native mobile experience on iOS & Android
+
+---
+
+## 💼 Professional Experience
+
+### **AWS Intern** | Cydez Technologies
+- Provisioned and managed **AWS EC2 and S3 infrastructure** using Python and Bash automation scripts
+- Reduced deployment time by **20%** through intelligent infrastructure automation
+- Implemented **IAM least-privilege roles** and configured CloudWatch dashboards for real-time system monitoring
+- Maintained **99.9% system uptime** with robust monitoring and alerting
+
+---
+
+## 🎓 Education & Certifications
+
+**Bachelor of Technology in Information Technology**  
+Viswajyothi College of Engineering and Technology | Vazhakulam, Kerala  
+Expected Graduation: May 2026 | GPA: 7.36/10
+
+**Certifications**:
+- **Meta Front-End Developer** — Meta / Coursera
+- **Google IT Automation with Python** — Google / Coursera
+- **AWS Cloud Technical Essentials** — AWS / Coursera
+
+---
+
+## 📈 What I'm Working On
+
+- 🤖 Advanced multi-agent systems and LLM reasoning optimization
+- 🚀 Scalable full-stack applications with real-time capabilities
+- ☁️ Cloud-native architecture and serverless patterns
+- 📱 Cross-platform mobile app development with Flutter
+- 🔧 Automation workflows and low-code integration platforms
+
+
+## 🤝 Let's Connect!
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-vivek987pm%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vivek987pm@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-vivek--r--015008188-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vivek-r-015008188)
+[![Phone](https://img.shields.io/badge/Phone-8590609366-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:8590609366)
+[![Portfolio](https://img.shields.io/badge/Portfolio-vivek.dev-000000?style=for-the-badge&logo=firefox&logoColor=white)](https://vivek123r.github.io/Portfolio/#/)
+
 </div>
 
-<div class="tabs">
-  <button class="tab active" onclick="showTab('about',this)"><i class="ti ti-user" aria-hidden="true" style="font-size:14px;margin-right:4px"></i>About</button>
-  <button class="tab" onclick="showTab('stack',this)"><i class="ti ti-code" aria-hidden="true" style="font-size:14px;margin-right:4px"></i>Stack</button>
-  <button class="tab" onclick="showTab('projects',this)"><i class="ti ti-rocket" aria-hidden="true" style="font-size:14px;margin-right:4px"></i>Projects</button>
-  <button class="tab" onclick="showTab('exp',this)"><i class="ti ti-briefcase" aria-hidden="true" style="font-size:14px;margin-right:4px"></i>Experience</button>
-  <button class="tab" onclick="showTab('certs',this)"><i class="ti ti-certificate" aria-hidden="true" style="font-size:14px;margin-right:4px"></i>Certs</button>
-  <button class="tab" onclick="showTab('connect',this)"><i class="ti ti-at" aria-hidden="true" style="font-size:14px;margin-right:4px"></i>Connect</button>
+---
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=vivek123r&style=flat-square&color=0891b2" alt="Profile Views" />
+  
+  **⭐ If my projects interest you, feel free to star them! Happy to collaborate on exciting ideas.**
 </div>
 
-<div id="about" class="panel active">
-  <p class="about-bio">Full-stack engineer specializing in AI-powered systems, automation pipelines, and cross-platform apps. Final-year IT student shipping production-grade LLM integrations and multi-agent orchestration at scale.</p>
-  <div class="about-grid">
-    <div class="about-card"><div class="lbl">Specialization</div><div class="val">AI agents · LangGraph</div></div>
-    <div class="about-card"><div class="lbl">Full-stack</div><div class="val">React · Node.js · Flutter</div></div>
-    <div class="about-card"><div class="lbl">Cloud</div><div class="val">AWS · Docker · K8s</div></div>
-    <div class="about-card"><div class="lbl">Automation</div><div class="val">n8n · API pipelines</div></div>
-  </div>
-  <div class="section-label">Currently working on</div>
-  <div class="currently-row">
-    <div class="currently-item"><i class="ti ti-brain" aria-hidden="true"></i>Advanced multi-agent systems and LLM reasoning</div>
-    <div class="currently-item"><i class="ti ti-cloud" aria-hidden="true"></i>Cloud-native architecture and serverless patterns</div>
-    <div class="currently-item"><i class="ti ti-device-mobile" aria-hidden="true"></i>Cross-platform mobile apps with Flutter</div>
-    <div class="currently-item"><i class="ti ti-settings-automation" aria-hidden="true"></i>Automation workflows and low-code platforms</div>
-  </div>
-</div>
+---
 
-<div id="stack" class="panel">
-  <div class="skill-group">
-    <h3>Languages</h3>
-    <div class="pills">
-      <span class="pill">Python</span><span class="pill">JavaScript</span><span class="pill">Dart</span><span class="pill">SQL</span><span class="pill">HTML5</span><span class="pill">CSS3</span>
-    </div>
-  </div>
-  <div class="skill-group">
-    <h3>Frontend & mobile</h3>
-    <div class="pills">
-      <span class="pill pill-hot">React</span><span class="pill">Next.js</span><span class="pill pill-hot">Flutter</span><span class="pill">Tailwind CSS</span><span class="pill">Bootstrap</span>
-    </div>
-  </div>
-  <div class="skill-group">
-    <h3>Backend & APIs</h3>
-    <div class="pills">
-      <span class="pill pill-hot">Node.js</span><span class="pill">REST APIs</span><span class="pill">WebSockets</span><span class="pill">JWT</span><span class="pill">Jest</span>
-    </div>
-  </div>
-  <div class="skill-group">
-    <h3>AI & automation</h3>
-    <div class="pills">
-      <span class="pill pill-hot">LangGraph</span><span class="pill pill-hot">LLM APIs</span><span class="pill">Prompt engineering</span><span class="pill">Vector DBs</span><span class="pill">n8n</span><span class="pill">Semantic search</span>
-    </div>
-  </div>
-  <div class="skill-group">
-    <h3>Cloud & DevOps</h3>
-    <div class="pills">
-      <span class="pill pill-hot">AWS EC2</span><span class="pill">AWS S3</span><span class="pill">IAM</span><span class="pill">CloudWatch</span><span class="pill">Docker</span><span class="pill">Kubernetes</span><span class="pill">GitHub CI/CD</span>
-    </div>
-  </div>
-  <div class="skill-group">
-    <h3>Databases</h3>
-    <div class="pills">
-      <span class="pill">PostgreSQL</span><span class="pill">MongoDB</span><span class="pill">MySQL</span><span class="pill">SQLite</span><span class="pill">Firebase</span>
-    </div>
-  </div>
-</div>
-
-<div id="projects" class="panel">
-  <div class="proj-card" onclick="toggleProj(this)">
-    <div class="proj-top">
-      <span class="proj-title">Multi-agent recommendation engine</span>
-      <i class="ti ti-chevron-down chevron" aria-hidden="true"></i>
-    </div>
-    <div class="proj-stack">LangGraph · LLM APIs · Node.js · React · AWS</div>
-    <div class="proj-desc">8-agent pipeline across Amazon, YouTube & web. Ranked results in 15–20s via 5 concurrent analyzers.</div>
-    <div class="proj-stats">
-      <span class="proj-stat">100+ SSE events/search</span>
-      <span class="proj-stat">8 agents</span>
-      <span class="proj-stat">3 LLM calls/query</span>
-    </div>
-    <div class="proj-detail">
-      <ul>
-        <li>Engineered 5 concurrent specialized analyzers delivering ranked results in 15–20 seconds per query</li>
-        <li>Implemented 100+ SSE streaming events per search with adaptive confidence scoring</li>
-        <li>Optimized agent orchestration using LangGraph for seamless inter-agent communication</li>
-        <li>Deployed on AWS with real-time monitoring and error recovery</li>
-      </ul>
-    </div>
-  </div>
-  <div class="proj-card" onclick="toggleProj(this)">
-    <div class="proj-top">
-      <span class="proj-title">AI-extension builder</span>
-      <i class="ti ti-chevron-down chevron" aria-hidden="true"></i>
-    </div>
-    <div class="proj-stack">LangGraph · LLM APIs · JavaScript · React</div>
-    <div class="proj-desc">Natural-language → production Chrome extension in under 30 seconds with self-correction loops.</div>
-    <div class="proj-stats">
-      <span class="proj-stat">&lt;30s generation</span>
-      <span class="proj-stat">Zero manual scaffolding</span>
-    </div>
-    <div class="proj-detail">
-      <ul>
-        <li>Designed a parse→plan→generate→validate pipeline with self-correction loops</li>
-        <li>Eliminated manual scaffolding entirely through intelligent code generation</li>
-        <li>Integrated semantic validation for generated code ensuring quality and compatibility</li>
-      </ul>
-    </div>
-  </div>
-  <div class="proj-card" onclick="toggleProj(this)">
-    <div class="proj-top">
-      <span class="proj-title">AI-powered email automation</span>
-      <i class="ti ti-chevron-down chevron" aria-hidden="true"></i>
-    </div>
-    <div class="proj-stack">n8n · LLMs · Gmail API · WhatsApp API · Google Calendar</div>
-    <div class="proj-desc">Intelligent automation across email, messaging and calendar. Zero data loss in production.</div>
-    <div class="proj-stats">
-      <span class="proj-stat">5+ hrs saved/week</span>
-      <span class="proj-stat">Zero data loss</span>
-    </div>
-    <div class="proj-detail">
-      <ul>
-        <li>Saved 5+ hours of manual work per week through intelligent scheduling</li>
-        <li>Achieved zero data loss over weeks of unattended production operation via retry logic</li>
-        <li>Integrated Gmail, WhatsApp, and Google Calendar with LLM-powered smart responses</li>
-      </ul>
-    </div>
-  </div>
-  <div class="proj-card" onclick="toggleProj(this)">
-    <div class="proj-top">
-      <span class="proj-title">Real-time system monitor</span>
-      <i class="ti ti-chevron-down chevron" aria-hidden="true"></i>
-    </div>
-    <div class="proj-stack">Python · Flutter · WebSockets</div>
-    <div class="proj-desc">Cross-platform CPU/RAM/network telemetry streaming at sub-200ms latency. Zero cloud dependencies.</div>
-    <div class="proj-stats">
-      <span class="proj-stat">&lt;200ms latency</span>
-      <span class="proj-stat">iOS & Android</span>
-      <span class="proj-stat">No cloud</span>
-    </div>
-    <div class="proj-detail">
-      <ul>
-        <li>Engineered real-time streaming of CPU, RAM, and network metrics via WebSockets</li>
-        <li>Implemented remote command execution with on-device privacy</li>
-        <li>Delivered native mobile experience on iOS & Android</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div id="exp" class="panel">
-  <div class="timeline">
-    <div class="tl-item">
-      <div class="tl-dot active"></div>
-      <div class="tl-title">AWS Intern</div>
-      <div class="tl-meta">Cydez Technologies · 2024</div>
-      <ul>
-        <li>Provisioned EC2 & S3 with Python/Bash automation → 20% faster deployments</li>
-        <li>Implemented IAM least-privilege roles and CloudWatch dashboards</li>
-        <li>Maintained 99.9% system uptime with real-time monitoring and alerting</li>
-      </ul>
-    </div>
-    <div class="tl-item">
-      <div class="tl-dot"></div>
-      <div class="tl-title">B.Tech in Information Technology</div>
-      <div class="tl-meta">Viswajyothi College of Engineering & Technology · Oct 2022 – May 2026 · GPA 7.36</div>
-    </div>
-  </div>
-</div>
-
-<div id="certs" class="panel">
-  <div class="cert-grid">
-    <div class="cert-card">
-      <div class="cert-icon"><i class="ti ti-brand-meta" aria-hidden="true"></i></div>
-      <div class="cert-name">Meta Front-End Developer</div>
-      <div class="cert-by">Meta · Coursera</div>
-    </div>
-    <div class="cert-card">
-      <div class="cert-icon"><i class="ti ti-brand-google" aria-hidden="true"></i></div>
-      <div class="cert-name">IT Automation with Python</div>
-      <div class="cert-by">Google · Coursera</div>
-    </div>
-    <div class="cert-card">
-      <div class="cert-icon"><i class="ti ti-cloud" aria-hidden="true"></i></div>
-      <div class="cert-name">AWS Cloud Technical Essentials</div>
-      <div class="cert-by">AWS · Coursera</div>
-    </div>
-  </div>
-  <div class="section-label">Education</div>
-  <div class="about-card">
-    <div class="lbl">Bachelor of Technology · Information Technology</div>
-    <div class="val" style="margin-top:4px">Viswajyothi College of Engineering and Technology</div>
-    <div style="font-size:12px;color:var(--color-text-secondary);margin-top:4px">Vazhakulam, Kerala · Expected May 2026 · GPA 7.36 / 10</div>
-  </div>
-</div>
-
-<div id="connect" class="panel">
-  <div class="status-row">
-    <div class="status-dot"></div>
-    <span style="color:var(--color-text-secondary);font-size:13px">Open to full-stack, AI/backend roles and startup collaboration</span>
-  </div>
-  <div class="connect-grid">
-    <a class="connect-btn cb-mail" href="mailto:vivek987pm@gmail.com">
-      <div class="cb-icon"><i class="ti ti-mail" aria-hidden="true"></i></div>
-      <div><div class="cb-label">Email</div><div class="cb-val">vivek987pm@gmail.com</div></div>
-    </a>
-    <a class="connect-btn cb-li" href="https://www.linkedin.com/in/vivek-r-015008188">
-      <div class="cb-icon"><i class="ti ti-brand-linkedin" aria-hidden="true"></i></div>
-      <div><div class="cb-label">LinkedIn</div><div class="cb-val">vivek-r-015008188</div></div>
-    </a>
-    <a class="connect-btn cb-gh" href="https://github.com/vivek123r">
-      <div class="cb-icon"><i class="ti ti-brand-github" aria-hidden="true"></i></div>
-      <div><div class="cb-label">GitHub</div><div class="cb-val">vivek123r</div></div>
-    </a>
-    <a class="connect-btn cb-web" href="https://vivek123r.github.io/Portfolio/#/">
-      <div class="cb-icon"><i class="ti ti-world" aria-hidden="true"></i></div>
-      <div><div class="cb-label">Portfolio</div><div class="cb-val">vivek123r.github.io</div></div>
-    </a>
-  </div>
-  <div class="quote-block">"The best code is the one that solves real problems at scale."</div>
-</div>
-
-<script>
-function showTab(id, el) {
-  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
-  document.getElementById(id).classList.add('active');
-  el.classList.add('active');
-}
-function toggleProj(card) {
-  const detail = card.querySelector('.proj-detail');
-  const chevron = card.querySelector('.chevron');
-  const isOpen = detail.classList.contains('open');
-  document.querySelectorAll('.proj-detail').forEach(d => d.classList.remove('open'));
-  document.querySelectorAll('.chevron').forEach(c => c.classList.remove('open'));
-  document.querySelectorAll('.proj-card').forEach(c => c.classList.remove('open'));
-  if (!isOpen) {
-    detail.classList.add('open');
-    chevron.classList.add('open');
-    card.classList.add('open');
-  }
-}
-</script>
+### 💡 *"The best code is the one that solves real problems at scale."*
