@@ -1,7 +1,7 @@
 # Hi there, I'm Vivek! 👋
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Welcome+to+my+GitHub+profile!;Flutter+and+React+Developer;Always+learning+new+things;Let's+build+something+amazing!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Welcome+to+my+GitHub+profile!;Agentic+ai;Always+learning+new+things;Let's+build+something+amazing!" alt="Typing SVG" />
 </div>
 
 ## 🚀 About Me
