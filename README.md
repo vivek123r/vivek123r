@@ -115,19 +115,6 @@ Expected Graduation: May 2026 | GPA: 7.36/10
 - 📱 Cross-platform mobile app development with Flutter
 - 🔧 Automation workflows and low-code integration platforms
 
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vivek123r&theme=tokyonight&show_icons=true&count_private=true" alt="GitHub Stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vivek123r&theme=tokyonight" alt="GitHub Streak" />
-</div>
-
----
 
 ## 🤝 Let's Connect!
 
@@ -136,7 +123,7 @@ Expected Graduation: May 2026 | GPA: 7.36/10
 [![Email](https://img.shields.io/badge/Email-vivek987pm%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vivek987pm@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-vivek--r--015008188-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vivek-r-015008188)
 [![Phone](https://img.shields.io/badge/Phone-8590609366-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:8590609366)
-[![Portfolio](https://img.shields.io/badge/Portfolio-vivek.dev-000000?style=for-the-badge&logo=firefox&logoColor=white)](https://your-portfolio.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-vivek.dev-000000?style=for-the-badge&logo=firefox&logoColor=white)](https://vivek123r.github.io/Portfolio/#/)
 
 </div>
 
