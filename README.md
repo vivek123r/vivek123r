@@ -1,12 +1,13 @@
 <!-- HERO - Custom Animated SVG (local asset, GitHub-safe SMIL animations) -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/hero.svg" width="100%" alt="Vivek R - Hero Banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=6,11,20&amp;height=220&amp;section=header&amp;text=VIVEK%20R&amp;fontSize=75&amp;fontColor=ffffff&amp;animation=fadeIn&amp;desc=Full-Stack%20%7C%20AI%20Agents%20%7C%20Cloud%20Native&amp;descAlignY=76&amp;descAlign=50" width="100%" alt="Vivek R Hero"/>
+  <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/hero.svg" width="100%" alt="Vivek R - Custom Animated Banner" style="margin-top:8px"/>
 </div>
 
 <!-- TYPING ANIMATION - Hosted SVG (GitHub-safe) -->
 <div align="center">
   <a href="https://github.com/vivek123r">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=22D3EE&center=true&vCenter=true&width=650&lines=Full-Stack+Software+Engineer;AI+%26+Agentic+Systems+Builder;React+%26+Flutter+Specialist;Cloud+Infrastructure+Engineer" alt="Typing Animation" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&amp;weight=600&amp;size=22&amp;pause=1000&amp;color=22D3EE&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=Full-Stack+Software+Engineer;AI+%26+Agentic+Systems+Builder;React+%26+Flutter+Specialist;Cloud+Infrastructure+Engineer" alt="Typing Animation" />
   </a>
 </div>
 
@@ -107,7 +108,7 @@ vivek = {
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header&reversal=false" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=2&amp;section=header&amp;reversal=false" width="100%"/>
 </div>
 
 ## ⚡ Featured Projects — The Bento
@@ -237,22 +238,22 @@ Intelligent workflow stitching **Gmail + WhatsApp + Calendar + LLM**.
 
 <div align="center">
   <a href="https://github.com/vivek123r">
-    <img src="https://github-readme-stats.vercel.app/api?username=vivek123r&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=22d3ee&icon_color=22d3ee&text_color=cbd5e1&count_private=true&include_all_commits=true" height="170" alt="stats"/>
-    <img src="https://streak-stats.demolab.com?user=vivek123r&theme=tokyonight&hide_border=true&background=00000000&stroke=22d3ee&ring=22d3ee&fire=22d3ee&currStreakNum=cbd5e1&sideNums=cbd5e1&currStreakLabel=22d3ee&sideLabels=cbd5e1&dates=64748b" height="170" alt="streak"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=vivek123r&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=22d3ee&amp;icon_color=22d3ee&amp;text_color=cbd5e1&amp;count_private=true&amp;include_all_commits=true" height="170" alt="stats"/>
+    <img src="https://streak-stats.demolab.com?user=vivek123r&amp;theme=tokyonight&amp;hide_border=true&amp;background=00000000&amp;stroke=22d3ee&amp;ring=22d3ee&amp;fire=22d3ee&amp;currStreakNum=cbd5e1&amp;sideNums=cbd5e1&amp;currStreakLabel=22d3ee&amp;sideLabels=cbd5e1&amp;dates=64748b" height="170" alt="streak"/>
   </a>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivek123r&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=22d3ee&text_color=cbd5e1&langs_count=8&card_width=320" height="180" alt="top langs"/>
-  <img src="https://github-profile-trophy.vercel.app/?username=vivek123r&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=4" height="180" alt="trophy"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivek123r&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=22d3ee&amp;text_color=cbd5e1&amp;langs_count=8&amp;card_width=320" height="180" alt="top langs"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=vivek123r&amp;theme=tokyonight&amp;no-frame=true&amp;no-bg=true&amp;margin-w=6&amp;column=4" height="180" alt="trophy"/>
 </div>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vivek123r&theme=tokyonight" width="100%" alt="profile details"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vivek123r&amp;theme=tokyonight" width="100%" alt="profile details"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vivek123r&theme=tokyo-night&hide_border=true&bg_color=00000000&color=22d3ee&line=a78bfa&point=22d3ee&area=true&area_color=22d3ee" width="100%" alt="activity graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vivek123r&amp;theme=tokyo-night&amp;hide_border=true&amp;bg_color=00000000&amp;color=22d3ee&amp;line=a78bfa&amp;point=22d3ee&amp;area=true&amp;area_color=22d3ee" width="100%" alt="activity graph"/>
 </div>
 
 ## 🐍 Watch My Contributions Get Eaten
@@ -309,7 +310,7 @@ Intelligent workflow stitching **Gmail + WhatsApp + Calendar + LLM**.
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" width="60%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=2&amp;section=header" width="60%"/>
 
 ### 🤝 Let's Build Something Insane Together
 
@@ -336,7 +337,7 @@ If you have a wild idea involving agents, automation, or realtime — let's ship
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=130&section=footer&text=Vivek%20R&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Thanks%20for%20visiting%20%E2%80%94%20let's%20connect%20%26%20build!&descAlignY=75&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=6,11,20&amp;height=130&amp;section=footer&amp;text=Vivek%20R&amp;fontSize=42&amp;fontColor=ffffff&amp;animation=fadeIn&amp;desc=Thanks%20for%20visiting%20%E2%80%94%20let's%20connect%20%26%20build!&amp;descAlignY=75&amp;descAlign=50" width="100%"/>
 
 <img src="https://komarev.com/ghpvc/?username=vivek123r&style=flat-square&color=0891b2&label=VISITORS" />
 &nbsp;
