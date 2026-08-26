@@ -1,34 +1,41 @@
-<!-- HERO - Custom Animated SVG (local asset, GitHub-safe SMIL animations) -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--   VIVEK R — SAKURA NIGHTFALL EDITION 🌸                      -->
+<!--   Hand-crafted animated SVGs · GitHub-safe SMIL · zero JS    -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+
+<!-- HERO — custom animated night-sky scene: moon, Fuji, falling petals -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=6,11,20&amp;height=220&amp;section=header&amp;text=VIVEK%20R&amp;fontSize=75&amp;fontColor=ffffff&amp;animation=fadeIn&amp;desc=Full-Stack%20%7C%20AI%20Agents%20%7C%20Cloud%20Native&amp;descAlignY=76&amp;descAlign=50" width="100%" alt="Vivek R Hero"/>
+  <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/hero.svg" width="100%" alt="VIVEK R — Full-Stack | AI Agents | Cloud Native"/>
 </div>
 
-<!-- TYPING ANIMATION - Hosted SVG (GitHub-safe) -->
+<!-- TYPING LINE -->
 <div align="center">
   <a href="https://github.com/vivek123r">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&amp;weight=600&amp;size=22&amp;pause=1000&amp;color=22D3EE&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=Full-Stack+Software+Engineer;AI+%26+Agentic+Systems+Builder;React+%26+Flutter+Specialist;Cloud+Infrastructure+Engineer" alt="Typing Animation" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1200&color=FF9EC7&center=true&vCenter=true&width=640&height=50&lines=Full-Stack+Software+Engineer;AI+%26+Agentic+Systems+Builder;React+%C3%97+Flutter+Specialist;Cloud+Infrastructure+Engineer;%E6%A1%9C%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E5%92%B2%E3%81%8F" alt="Typing Animation" />
   </a>
 </div>
 
 <!-- SOCIAL BADGES -->
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-vivek987pm%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vivek987pm@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-vivek--r--015008188-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vivek-r-015008188)
-[![Portfolio](https://img.shields.io/badge/Portfolio-vivek.dev-000000?style=for-the-badge&logo=firefox&logoColor=white)](https://vivek123r.github.io/Portfolio/#/)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-8590609366-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:8590609366)
-![Profile Views](https://komarev.com/ghpvc/?username=vivek123r&style=flat-square&color=0891b2&label=PROFILE+VIEWS)
-![Followers](https://img.shields.io/github/followers/vivek123r?style=flat-square&color=0891b2&label=FOLLOWERS)
-![Stars](https://img.shields.io/github/stars/vivek123r?style=flat-square&color=a78bfa&label=STARS)
+[![Email](https://img.shields.io/badge/Email-vivek987pm%40gmail.com-E75480?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vivek987pm@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-vivek--r--015008188-9D6BC3?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vivek-r-015008188)
+[![Portfolio](https://img.shields.io/badge/Portfolio-vivek.dev-FF8FB7?style=for-the-badge&logo=firefox&logoColor=white)](https://vivek123r.github.io/Portfolio/#/)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-8590609366-8B7BD8?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:8590609366)
+
+<br>
+
+![Profile Views](https://komarev.com/ghpvc/?username=vivek123r&style=flat-square&color=ff6b9d&label=PROFILE+VIEWS)
+![Followers](https://img.shields.io/github/followers/vivek123r?style=flat-square&color=c77dbe&label=FOLLOWERS)
+![Stars](https://img.shields.io/github/stars/vivek123r?style=flat-square&color=ffb86b&label=STARS)
 
 </div>
 
-<!-- ANIMATED DIVIDER -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/divider.svg" width="100%" alt="divider"/>
 </div>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Light%20Skin%20Tone.png" width="28"/> About Me
+## 🌸 About Me <sub>「自己紹介」</sub>
 
 <table>
 <tr>
@@ -40,10 +47,11 @@ I don't just build apps. I build **autonomous pipelines** that think, rank, and 
 
 ```python
 vivek = {
-  "role": "Full-Stack + AI Engineer",
-  "location": "Kerala, India",
-  "focus": ["Multi-Agent Systems", "RAG", "Realtime"],
-  "motto": "Ship at speed, scale with agents"
+    "role": "Full-Stack + AI Engineer",
+    "location": "Kerala, India",
+    "focus": ["Multi-Agent Systems", "RAG", "Realtime"],
+    "theme": "sakura-night",
+    "motto": "Ship fast, bloom faster"
 }
 ```
 
@@ -61,12 +69,12 @@ vivek = {
 <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="320" alt="coding" style="border-radius:12px"/>
 
 <div align="center">
-  
-**⚡ Fun Fact**
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bolt.png" width="14"/> I turned hours of manual work into `15s` agent runs.
 
-<img src="https://img.shields.io/badge/Status-Building%20Agents-10b981?style=flat-square&labelColor=020617" />
-<img src="https://img.shields.io/badge/Focus-2026_Graduation-0891b2?style=flat-square&labelColor=020617" />
+**⚡ Fun Fact**
+I turned hours of manual work into `15s` agent runs.
+
+<img src="https://img.shields.io/badge/Status-Building_Agents-ff6b9d?style=flat-square&labelColor=1A1230" />
+<img src="https://img.shields.io/badge/Focus-2026_Graduation-b388eb?style=flat-square&labelColor=1A1230" />
 
 </div>
 
@@ -74,7 +82,9 @@ vivek = {
 </tr>
 </table>
 
-<!-- METRICS STRIP - LOCAL ANIMATED SVG -->
+> 「花は桜木、人は君」 — *Among flowers, the cherry blossom; among people, you.*
+
+<!-- METRICS STRIP — glassmorphic animated card -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/metrics-card.svg" width="100%" alt="metrics"/>
 </div>
@@ -83,7 +93,7 @@ vivek = {
   <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/divider.svg" width="100%" alt="divider"/>
 </div>
 
-## 🛠️ Tech Stack — Animated & Alive
+## ⚔️ Tech Arsenal <sub>「武器庫」</sub>
 
 <div align="center">
 
@@ -98,19 +108,39 @@ vivek = {
 
 <br>
 
-<!-- AI & Automation - Custom Shields (animated via shields.io) -->
-<img src="https://img.shields.io/badge/LangGraph-Multi_Agent_Orchestration-0ea5e9?style=for-the-badge&logo=chainlink&logoColor=white" />
-<img src="https://img.shields.io/badge/LLM_GenAI-RAG_•_Vector_DB_•_Semantic_Search-8b5cf6?style=for-the-badge&logo=openai&logoColor=white" />
-<img src="https://img.shields.io/badge/n8n-Automation_Pipelines-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
-<img src="https://img.shields.io/badge/WebSockets-Realtime_ sub_200ms-22d3ee?style=for-the-badge&logo=socketdotio&logoColor=white" />
+<img src="https://img.shields.io/badge/LangGraph-Multi_Agent_Orchestration-FF6B9D?style=for-the-badge&logo=chainlink&logoColor=white" />
+<img src="https://img.shields.io/badge/LLM_GenAI-RAG_•_Vector_DB_•_Semantic_Search-B388EB?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/n8n-Automation_Pipelines-E75480?style=for-the-badge&logo=n8n&logoColor=white" />
+<img src="https://img.shields.io/badge/WebSockets-Realtime_sub_200ms-FFB86B?style=for-the-badge&logo=socketdotio&logoColor=white" />
 
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=2&amp;section=header&amp;reversal=false" width="100%"/>
+  <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/divider.svg" width="100%" alt="divider"/>
 </div>
 
-## ⚡ Featured Projects — The Bento
+## 📊 GitHub Pulse <sub>「活動」</sub>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://github-readme-stats.vercel.app/api?username=vivek123r&show_icons=true&hide_border=false&bg_color=1B0F2F&title_color=FFD6E7&text_color=D8C3E8&icon_color=FF8FB7&border_color=FF8FB7&include_all_commits=true&count_private=true" alt="GitHub stats" width="100%"/>
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://streak-stats.demolab.com/?user=vivek123r&hide_border=false&background=1B0F2F&stroke=FF8FB7&ring=E75480&fire=FFB86B&currStreakLabel=FFD6E7&sideLabels=B79CCB&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=A78BB8" alt="GitHub streak" width="100%"/>
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/divider.svg" width="100%" alt="divider"/>
+</div>
+
+## 🎴 Featured Builds <sub>「作品」</sub> — The Bento Garden
 
 > Hover the cards • Every project ships in production, not demos.
 
@@ -119,7 +149,7 @@ vivek = {
 <td width="50%" valign="top">
 
 ### 🎯 Multi-Agent Recommendation Engine
-<img src="https://img.shields.io/badge/LangGraph-8_Agents-0891b2?style=flat-square"/> <img src="https://img.shields.io/badge/SSE-100%2B_events-22d3ee?style=flat-square"/> <img src="https://img.shields.io/badge/AWS-Deployed-232F3E?style=flat-square&logo=amazonaws"/>
+<img src="https://img.shields.io/badge/LangGraph-8_Agents-FF6B9D?style=flat-square"/> <img src="https://img.shields.io/badge/SSE-100%2B_events-FFB86B?style=flat-square"/> <img src="https://img.shields.io/badge/AWS-Deployed-232F3E?style=flat-square&logo=amazonaws"/>
 
 Architected a **production-grade 8-agent pipeline** across **Amazon, YouTube & Web** with intelligent ranking.
 
@@ -134,7 +164,7 @@ Architected a **production-grade 8-agent pipeline** across **Amazon, YouTube & W
 <td width="50%" valign="top">
 
 ### 🧪 AI Chrome Extension Builder
-<img src="https://img.shields.io/badge/Build_Time-<30s-10b981?style=flat-square"/> <img src="https://img.shields.io/badge/Pipeline-parse→validate-8b5cf6?style=flat-square"/>
+<img src="https://img.shields.io/badge/Build_Time-%3C30s-FFB86B?style=flat-square"/> <img src="https://img.shields.io/badge/Pipeline-parse→validate-B388EB?style=flat-square"/>
 
 Turns **natural language → production Chrome extension** in under **30 seconds**.
 
@@ -151,7 +181,7 @@ Turns **natural language → production Chrome extension** in under **30 seconds
 <td width="50%" valign="top">
 
 ### 📧 AI Email Automation Pipeline
-<img src="https://img.shields.io/badge/Saved-5%2B_hrs%2Fweek-10b981?style=flat-square"/> <img src="https://img.shields.io/badge/Uptime-Weeks_Zero_Loss-22d3ee?style=flat-square"/>
+<img src="https://img.shields.io/badge/Saved-5%2B_hrs%2Fweek-FFB86B?style=flat-square"/> <img src="https://img.shields.io/badge/Uptime-Weeks_Zero_Loss-FF8FB7?style=flat-square"/>
 
 Intelligent workflow stitching **Gmail + WhatsApp + Calendar + LLM**.
 
@@ -166,7 +196,7 @@ Intelligent workflow stitching **Gmail + WhatsApp + Calendar + LLM**.
 <td width="50%" valign="top">
 
 ### 📊 Realtime System Monitor
-<img src="https://img.shields.io/badge/Latency-sub_200ms-22d3ee?style=flat-square"/> <img src="https://img.shields.io/badge/Privacy-100%25_On_Device-10b981?style=flat-square"/>
+<img src="https://img.shields.io/badge/Latency-sub_200ms-FF8FB7?style=flat-square"/> <img src="https://img.shields.io/badge/Privacy-100%25_On_Device-B388EB?style=flat-square"/>
 
 **Python + Flutter** remote telemetry with **sub-200ms** WebSocket streaming.
 
@@ -182,7 +212,7 @@ Intelligent workflow stitching **Gmail + WhatsApp + Calendar + LLM**.
 
 <div align="center">
   <a href="https://github.com/vivek123r?tab=repositories">
-    <img src="https://img.shields.io/badge/▸_Explore_All_Repositories-0f172a?style=for-the-badge&logo=github&logoColor=white&labelColor=0891b2" />
+    <img src="https://img.shields.io/badge/▸_Explore_All_Repositories-1B0F2F?style=for-the-badge&logo=github&logoColor=white&labelColor=E75480" />
   </a>
 </div>
 
@@ -190,7 +220,7 @@ Intelligent workflow stitching **Gmail + WhatsApp + Calendar + LLM**.
   <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/divider.svg" width="100%" alt="divider"/>
 </div>
 
-## 💼 Experience
+## 💼 Experience <sub>「経歴」</sub>
 
 <table>
 <tr>
@@ -208,24 +238,24 @@ Intelligent workflow stitching **Gmail + WhatsApp + Calendar + LLM**.
 </td>
 <td align="right">
 
-<img src="https://img.shields.io/badge/99.9%25-Uptime-10b981?style=flat-square&labelColor=020617" /><br>
-<img src="https://img.shields.io/badge/-20%25-Deploy_Time-22d3ee?style=flat-square&labelColor=020617" />
+<img src="https://img.shields.io/badge/99.9%25-Uptime-FFB86B?style=flat-square&labelColor=1A1230" /><br>
+<img src="https://img.shields.io/badge/-20%25-Deploy_Time-FF8FB7?style=flat-square&labelColor=1A1230" />
 
 </td>
 </tr>
 </table>
 
-## 🎓 Education & Certs
+## 🎓 Education & Certs <sub>「学歴」</sub>
 
-**B.Tech Information Technology — Viswajyothi College of Engineering & Technology, Vazhakulam**  
+**B.Tech Information Technology — Viswajyothi College of Engineering & Technology, Vazhakulam**
 `Expected May 2026 • 7.36/10` • Kerala, India
 
 <div align="center">
 
-![Meta](https://img.shields.io/badge/Meta_Front_End-0668E1?style=for-the-badge&logo=meta&logoColor=white)
-![Google](https://img.shields.io/badge/Google_IT_Automation-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Meta](https://img.shields.io/badge/Meta_Front_End-9D6BC3?style=for-the-badge&logo=meta&logoColor=white)
+![Google](https://img.shields.io/badge/Google_IT_Automation-FF8FB7?style=for-the-badge&logo=google&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS_Cloud_Essentials-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-Certified_Builder-0ea5e9?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-Certified_Builder-FF6B9D?style=for-the-badge&logo=langchain&logoColor=white)
 
 </div>
 
@@ -233,7 +263,7 @@ Intelligent workflow stitching **Gmail + WhatsApp + Calendar + LLM**.
   <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/divider.svg" width="100%" alt="divider"/>
 </div>
 
-## 🐍 Watch My Contributions Get Eaten
+## 🐍 The Serpent Beneath the Blossoms
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vivek123r/vivek123r/output/github-contribution-grid-snake-dark.svg">
@@ -242,15 +272,14 @@ Intelligent workflow stitching **Gmail + WhatsApp + Calendar + LLM**.
 </picture>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" width="0" height="0" alt="hidden"/>
-  <em>↑ GitHub-native SVGs • Auto-updates every 6 hours via Actions — zero JS, 100% GitHub-safe</em>
+  <em>↑ Auto-updates every 6 hours via Actions — zero JS, 100% GitHub-safe</em>
 </div>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/divider.svg" width="100%" alt="divider"/>
 </div>
 
-## 🚀 What I'm Cooking Right Now
+## 🔥 What's Brewing <sub>「進行中」</sub>
 
 <div align="center">
 
@@ -287,42 +316,43 @@ Intelligent workflow stitching **Gmail + WhatsApp + Calendar + LLM**.
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=2&amp;section=header" width="60%"/>
-
-### 🤝 Let's Build Something Insane Together
+### 🌙 Let's Build Something Insane Together
 
 I'm open for **Full-stack / AI / Backend roles** and **freelance collaborations**.<br>
-If you have a wild idea involving agents, automation, or realtime — let's ship it.
+If you have a wild idea involving agents, automation, or realtime — let's ship it under the blossoms.
 
 <br>
 
 <a href="mailto:vivek987pm@gmail.com">
-  <img src="https://img.shields.io/badge/Hire_Me-Let's_Talk-22d3ee?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f172a" height="40"/>
+  <img src="https://img.shields.io/badge/Hire_Me-Let's_Talk-E75480?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1B0F2F" height="40"/>
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/vivek-r-015008188">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="40"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-9D6BC3?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1B0F2F" height="40"/>
 </a>
 &nbsp;
 <a href="https://vivek123r.github.io/Portfolio/#/">
-  <img src="https://img.shields.io/badge/Portfolio-View_Work-000000?style=for-the-badge&logo=firefox&logoColor=white" height="40"/>
+  <img src="https://img.shields.io/badge/Portfolio-View_Work-FF8FB7?style=for-the-badge&logo=firefox&logoColor=white&labelColor=1B0F2F" height="40"/>
 </a>
 
 </div>
 
 ---
 
+<!-- FOOTER — waving night scene with torii -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/footer.svg" width="100%" alt="footer"/>
+</div>
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=6,11,20&amp;height=130&amp;section=footer&amp;text=Vivek%20R&amp;fontSize=42&amp;fontColor=ffffff&amp;animation=fadeIn&amp;desc=Thanks%20for%20visiting%20%E2%80%94%20let's%20connect%20%26%20build!&amp;descAlignY=75&amp;descAlign=50" width="100%"/>
-
-<img src="https://komarev.com/ghpvc/?username=vivek123r&style=flat-square&color=0891b2&label=VISITORS" />
+<img src="https://komarev.com/ghpvc/?username=vivek123r&style=flat-square&color=ff6b9d&label=VISITORS" />
 &nbsp;
-<img src="https://img.shields.io/badge/Made_with_❤️_by-Vivek_R-0ea5e9?style=flat-square&labelColor=020617" />
+<img src="https://img.shields.io/badge/Made_with_🌸_by-Vivek_R-E75480?style=flat-square&labelColor=1A1230" />
 
 <br>
-<sub>© 2026 Vivek R • Built with automation, obsession, and way too much coffee ☕</sub>
+<sub>© 2026 Vivek R • handcrafted under the cherry blossoms, fueled by coffee ☕</sub>
 
-**⭐ Star my repos if they inspire you — it fuels the next build!**
+**⭐ Star my repos if they inspire you — it fuels the next bloom!**
 
 </div>

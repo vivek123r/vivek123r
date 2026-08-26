@@ -1,0 +1,97 @@
+<svg width="1280" height="190" viewBox="0 0 1280 190" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+  <linearGradient id="footGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#241338"/>
+    <stop offset="100%" stop-color="#120a20"/>
+  </linearGradient>
+  <linearGradient id="footGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#3a1c50"/>
+    <stop offset="100%" stop-color="#241338"/>
+  </linearGradient>
+  <radialGradient id="fMoonGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#ffe9b8" stop-opacity="0.4"/>
+    <stop offset="100%" stop-color="#ffe9b8" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="fpg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#ffd6e7"/>
+    <stop offset="100%" stop-color="#ff7ea8"/>
+  </linearGradient>
+  <path id="fpetal" d="M0,-7 C4.5,-5 6,-1 4.5,3 C3,6.5 -3,6.5 -4.5,3 C-6,-1 -4.5,-5 0,-7 Z"/>
+</defs>
+
+<!-- back wave -->
+<path fill="url(#footGrad2)" opacity="0.5" d="M0,44 C160,70 320,26 640,48 C920,66 1090,30 1280,52 L1280,190 L0,190 Z">
+  <animate attributeName="d"
+    values="M0,44 C160,70 320,26 640,48 C920,66 1090,30 1280,52 L1280,190 L0,190 Z;
+            M0,44 C160,26 320,72 640,48 C920,32 1090,70 1280,52 L1280,190 L0,190 Z;
+            M0,44 C160,70 320,26 640,48 C920,66 1090,30 1280,52 L1280,190 L0,190 Z"
+    dur="11s" repeatCount="indefinite"/>
+</path>
+<!-- main wave -->
+<path fill="url(#footGrad)" d="M0,56 C200,28 360,82 640,60 C920,42 1080,80 1280,54 L1280,190 L0,190 Z">
+  <animate attributeName="d"
+    values="M0,56 C200,28 360,82 640,60 C920,42 1080,80 1280,54 L1280,190 L0,190 Z;
+            M0,56 C200,76 360,38 640,60 C920,78 1080,44 1280,54 L1280,190 L0,190 Z;
+            M0,56 C200,28 360,82 640,60 C920,42 1080,80 1280,54 L1280,190 L0,190 Z"
+    dur="8s" repeatCount="indefinite"/>
+</path>
+
+<!-- stars -->
+<g fill="#ffeef6">
+  <circle cx="330" cy="102" r="1"><animate attributeName="opacity" values="0.7;0.12;0.7" dur="2.6s" repeatCount="indefinite"/></circle>
+  <circle cx="520" cy="84" r="1.2"><animate attributeName="opacity" values="0.85;0.15;0.85" dur="2.1s" begin="-1s" repeatCount="indefinite"/></circle>
+  <circle cx="705" cy="110" r="0.9"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="3s" begin="-0.5s" repeatCount="indefinite"/></circle>
+  <circle cx="880" cy="92" r="1.1"><animate attributeName="opacity" values="0.75;0.14;0.75" dur="2.4s" begin="-1.6s" repeatCount="indefinite"/></circle>
+  <circle cx="990" cy="126" r="0.9"><animate attributeName="opacity" values="0.55;0.1;0.55" dur="3.2s" begin="-2.2s" repeatCount="indefinite"/></circle>
+</g>
+
+<!-- moon -->
+<g transform="translate(150,122)">
+  <circle r="46" fill="url(#fMoonGlow)"/>
+  <circle r="17" fill="#ffedc6"/>
+  <circle cx="-4" cy="-3" r="3" fill="#eed9a4" opacity="0.55"/>
+  <circle cx="7" cy="5" r="2" fill="#eed9a4" opacity="0.5"/>
+</g>
+
+<!-- message -->
+<g text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <text x="600" y="116" font-size="25" font-weight="800" letter-spacing="5" fill="#ffd9ea" opacity="0">LET'S BUILD SOMETHING BEAUTIFUL
+    <animate attributeName="opacity" values="0;1" dur="1s" begin="0.4s" fill="freeze"/>
+  </text>
+  <text x="600" y="148" font-size="13" letter-spacing="2" fill="#bd97d4" opacity="0">またね — see you among the blossoms
+    <animate attributeName="opacity" values="0;0.95" dur="1s" begin="0.9s" fill="freeze"/>
+  </text>
+</g>
+
+<!-- torii silhouette -->
+<g fill="#2b1745">
+  <path d="M1078,112 Q1155,94 1232,112 L1232,125 Q1155,107 1078,125 Z" stroke="#ff8fb7" stroke-opacity="0.45" stroke-width="1"/>
+  <rect x="1092" y="136" width="126" height="10" rx="2"/>
+  <rect x="1147" y="125" width="16" height="13"/>
+  <rect x="1104" y="118" width="11" height="62" rx="1"/>
+  <rect x="1195" y="118" width="11" height="62" rx="1"/>
+</g>
+
+<!-- ground -->
+<rect x="0" y="178" width="1280" height="12" fill="#0d0619"/>
+
+<!-- petals -->
+<g opacity="0.85">
+  <animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.08;0.92;1" dur="9s" repeatCount="indefinite"/>
+  <g>
+    <animateMotion path="M 240,58 q 60,18 120,0 t 120,0 t 120,0 t 120,0 t 120,0 t 120,0 t 120,0 t 120,0" dur="9s" repeatCount="indefinite"/>
+    <use href="#fpetal" xlink:href="#fpetal" fill="url(#fpg)" transform="scale(1.1)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.2s" repeatCount="indefinite" additive="sum"/>
+    </use>
+  </g>
+</g>
+<g opacity="0.65">
+  <animate attributeName="opacity" values="0;0.65;0.65;0" keyTimes="0;0.08;0.92;1" dur="9s" begin="-4.5s" repeatCount="indefinite"/>
+  <g>
+    <animateMotion path="M 240,64 q 60,-16 120,0 t 120,0 t 120,0 t 120,0 t 120,0 t 120,0 t 120,0 t 120,0" dur="9s" begin="-4.5s" repeatCount="indefinite"/>
+    <use href="#fpetal" xlink:href="#fpetal" fill="url(#fpg)" transform="scale(0.85)">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="3.8s" repeatCount="indefinite" additive="sum"/>
+    </use>
+  </g>
+</g>
+</svg>

@@ -1,41 +1,108 @@
-<svg width="1280" height="120" viewBox="0 0 1280 120" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#020617"/>
-    </linearGradient>
-    <linearGradient id="highlight" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-  <!-- Cards row - 4 metrics -->
-  <g font-family="'Fira Code', monospace">
-    <!-- Card 1 -->
-    <rect x="10" y="10" width="300" height="95" rx="14" fill="url(#cardBg)" stroke="white" stroke-opacity="0.07"/>
-    <rect x="10" y="10" width="300" height="1.5" rx="1" fill="url(#highlight)"/>
-    <text x="160" y="38" text-anchor="middle" font-size="28" font-weight="800" fill="white">8</text>
-    <text x="160" y="58" text-anchor="middle" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1.2">AI AGENTS ORCHESTRATED</text>
-    <text x="160" y="78" text-anchor="middle" font-size="10" fill="#22d3ee" letter-spacing="0.5">LangGraph • Concurrent</text>
-    <!-- Card 2 -->
-    <rect x="333" y="10" width="300" height="95" rx="14" fill="url(#cardBg)" stroke="white" stroke-opacity="0.07"/>
-    <rect x="333" y="10" width="300" height="1.5" rx="1" fill="url(#highlight)"/>
-    <text x="483" y="38" text-anchor="middle" font-size="28" font-weight="800" fill="white">15-20s</text>
-    <text x="483" y="58" text-anchor="middle" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1.2">AVG QUERY TIME</text>
-    <text x="483" y="78" text-anchor="middle" font-size="10" fill="#22d3ee" letter-spacing="0.5">100+ SSE Events</text>
-    <!-- Card 3 -->
-    <rect x="656" y="10" width="300" height="95" rx="14" fill="url(#cardBg)" stroke="white" stroke-opacity="0.07"/>
-    <rect x="656" y="10" width="300" height="1.5" rx="1" fill="url(#highlight)"/>
-    <text x="806" y="38" text-anchor="middle" font-size="28" font-weight="800" fill="white">&lt;200ms</text>
-    <text x="806" y="58" text-anchor="middle" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1.2">REALTIME LATENCY</text>
-    <text x="806" y="78" text-anchor="middle" font-size="10" fill="#22d3ee" letter-spacing="0.5">WebSockets • Flutter</text>
-    <!-- Card 4 -->
-    <rect x="979" y="10" width="290" height="95" rx="14" fill="url(#cardBg)" stroke="#10b981" stroke-opacity="0.18"/>
-    <rect x="979" y="10" width="290" height="1.5" rx="1" fill="#10b981" fill-opacity="0.5"/>
-    <text x="1124" y="38" text-anchor="middle" font-size="28" font-weight="800" fill="white">99.9%</text>
-    <text x="1124" y="58" text-anchor="middle" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1.2">UPTIME ACHIEVED</text>
-    <text x="1124" y="78" text-anchor="middle" font-size="10" fill="#10b981" letter-spacing="0.5">AWS • CloudWatch</text>
-    <circle cx="1125" cy="88" r="2.5" fill="#10b981"><animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite"/></circle>
+<svg width="1280" height="200" viewBox="0 0 1280 200" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#201238"/>
+    <stop offset="100%" stop-color="#140b26"/>
+  </linearGradient>
+  <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#ff8fb7" stop-opacity="0.55"/>
+    <stop offset="50%" stop-color="#b388eb" stop-opacity="0.20"/>
+    <stop offset="100%" stop-color="#ff8fb7" stop-opacity="0.55"/>
+  </linearGradient>
+  <linearGradient id="hairline" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#ff8fb7" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#ffb7d9" stop-opacity="0.8"/>
+    <stop offset="100%" stop-color="#ff8fb7" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="blobPink" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#ff7ea8" stop-opacity="0.16"/>
+    <stop offset="100%" stop-color="#ff7ea8" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="blobViolet" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#b388eb" stop-opacity="0.14"/>
+    <stop offset="100%" stop-color="#b388eb" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="runGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#ff8fb7" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#ffb7d9"/>
+    <stop offset="100%" stop-color="#ff8fb7" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="cardClip">
+    <rect x="14" y="14" width="1252" height="172" rx="22"/>
+  </clipPath>
+</defs>
+
+<!-- ambient blobs -->
+<circle cx="190" cy="46" r="150" fill="url(#blobPink)">
+  <animateTransform attributeName="transform" type="translate" values="0 0;24 10;0 0" dur="11s" repeatCount="indefinite"/>
+</circle>
+<circle cx="1110" cy="160" r="170" fill="url(#blobViolet)">
+  <animateTransform attributeName="transform" type="translate" values="0 0;-26 -12;0 0" dur="13s" repeatCount="indefinite"/>
+</circle>
+
+<!-- glass card -->
+<rect x="14" y="14" width="1252" height="172" rx="22" fill="url(#cardGrad)" stroke="url(#borderGrad)" stroke-width="1.5"/>
+<rect x="40" y="14.8" width="1200" height="1.5" rx="0.75" fill="url(#hairline)"/>
+
+<!-- shimmer sweep -->
+<g clip-path="url(#cardClip)">
+  <rect x="-150" y="0" width="300" height="200" fill="#ffffff" opacity="0.05" transform="skewX(-18)">
+    <animateTransform attributeName="transform" type="translate" values="-500 0;-500 0;1750 0;1750 0" keyTimes="0;0.08;0.55;1" dur="7s" begin="1.5s" repeatCount="indefinite" additive="sum"/>
+  </rect>
+
+  <!-- kanji watermark -->
+  <text x="1232" y="182" font-family="'Yu Mincho','Hiragino Mincho ProN',serif" font-size="96" fill="#ffb7d9" opacity="0.04" text-anchor="middle">咲</text>
+
+  <!-- stats -->
+  <g text-anchor="middle">
+    <!-- stat 1 -->
+    <g transform="translate(175,0)" opacity="0">
+      <text y="92" font-family="'Segoe UI',Arial,sans-serif" font-size="44" font-weight="800" fill="#ffe3ef">8</text>
+      <text y="122" font-family="'Segoe UI',Arial,sans-serif" font-size="11" letter-spacing="2.4" font-weight="600" fill="#b79ccb">AI AGENTS ORCHESTRATED</text>
+      <text y="142" font-family="'Fira Code',Consolas,monospace" font-size="10.5" fill="#e099c0">LangGraph · concurrent fan-out</text>
+      <rect x="-34" y="154" width="68" height="3" rx="1.5" fill="#ffffff" opacity="0.07"/>
+      <rect x="-34" y="154" width="20" height="3" rx="1.5" fill="url(#runGrad)">
+        <animate attributeName="x" values="-34;48" dur="2.8s" begin="0.3s" repeatCount="indefinite"/>
+      </rect>
+      <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.25s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 12;0 0" dur="0.8s" begin="0.25s" fill="freeze" additive="sum"/>
+    </g>
+    <!-- stat 2 -->
+    <g transform="translate(485,0)" opacity="0">
+      <text y="92" font-family="'Segoe UI',Arial,sans-serif" font-size="44" font-weight="800" fill="#ffe3ef">&lt;20s</text>
+      <text y="122" font-family="'Segoe UI',Arial,sans-serif" font-size="11" letter-spacing="2.4" font-weight="600" fill="#b79ccb">AGENT QUERY TIME</text>
+      <text y="142" font-family="'Fira Code',Consolas,monospace" font-size="10.5" fill="#e099c0">100+ SSE events per search</text>
+      <rect x="-34" y="154" width="68" height="3" rx="1.5" fill="#ffffff" opacity="0.07"/>
+      <rect x="-34" y="154" width="20" height="3" rx="1.5" fill="url(#runGrad)">
+        <animate attributeName="x" values="-34;48" dur="2.8s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+      <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.45s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 12;0 0" dur="0.8s" begin="0.45s" fill="freeze" additive="sum"/>
+    </g>
+    <!-- stat 3 -->
+    <g transform="translate(795,0)" opacity="0">
+      <text y="92" font-family="'Segoe UI',Arial,sans-serif" font-size="44" font-weight="800" fill="#ffe3ef">&lt;200ms</text>
+      <text y="122" font-family="'Segoe UI',Arial,sans-serif" font-size="11" letter-spacing="2.4" font-weight="600" fill="#b79ccb">REALTIME LATENCY</text>
+      <text y="142" font-family="'Fira Code',Consolas,monospace" font-size="10.5" fill="#e099c0">WebSockets · Flutter telemetry</text>
+      <rect x="-34" y="154" width="68" height="3" rx="1.5" fill="#ffffff" opacity="0.07"/>
+      <rect x="-34" y="154" width="20" height="3" rx="1.5" fill="url(#runGrad)">
+        <animate attributeName="x" values="-34;48" dur="2.8s" begin="1.7s" repeatCount="indefinite"/>
+      </rect>
+      <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.65s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 12;0 0" dur="0.8s" begin="0.65s" fill="freeze" additive="sum"/>
+    </g>
+    <!-- stat 4 -->
+    <g transform="translate(1105,0)" opacity="0">
+      <text y="92" font-family="'Segoe UI',Arial,sans-serif" font-size="44" font-weight="800" fill="#ffe3ef">99.9%</text>
+      <text y="122" font-family="'Segoe UI',Arial,sans-serif" font-size="11" letter-spacing="2.4" font-weight="600" fill="#b79ccb">UPTIME ON AWS</text>
+      <text y="142" font-family="'Fira Code',Consolas,monospace" font-size="10.5" fill="#e099c0">CloudWatch · IAM least-privilege</text>
+      <rect x="-34" y="154" width="68" height="3" rx="1.5" fill="#ffffff" opacity="0.07"/>
+      <rect x="-34" y="154" width="20" height="3" rx="1.5" fill="url(#runGrad)">
+        <animate attributeName="x" values="-34;48" dur="2.8s" begin="2.4s" repeatCount="indefinite"/>
+      </rect>
+      <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.85s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 12;0 0" dur="0.8s" begin="0.85s" fill="freeze" additive="sum"/>
+    </g>
   </g>
+</g>
 </svg>
