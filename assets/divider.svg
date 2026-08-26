@@ -1,0 +1,25 @@
+<svg width="1280" height="20" viewBox="0 0 1280 20" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0891b2" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#0891b2" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="1"/>
+      <stop offset="85%" stop-color="#0891b2" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0891b2" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <rect x="0" y="9" width="1280" height="1.5" rx="1" fill="url(#line)" opacity="0.9"/>
+  <!-- moving spark -->
+  <circle r="4" fill="#22d3ee" filter="url(#glow2)" opacity="0.95">
+    <animateMotion path="M -10 9.5 H 1290" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="8" fill="#22d3ee" opacity="0.12">
+    <animateMotion path="M -10 9.5 H 1290" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.12;0.12;0" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
