@@ -233,28 +233,6 @@ Intelligent workflow stitching **Gmail + WhatsApp + Calendar + LLM**.
   <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/divider.svg" width="100%" alt="divider"/>
 </div>
 
-## 📊 GitHub Analytics — Live
-
-<div align="center">
-  <a href="https://github.com/vivek123r">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=vivek123r&amp;theme=tokyonight" height="170" alt="stats"/>
-    <img src="https://streak-stats.demolab.com?user=vivek123r&amp;theme=tokyonight&amp;hide_border=true&amp;background=00000000&amp;stroke=22d3ee&amp;ring=22d3ee&amp;fire=22d3ee&amp;currStreakNum=cbd5e1&amp;sideNums=cbd5e1&amp;currStreakLabel=22d3ee&amp;sideLabels=cbd5e1&amp;dates=64748b" height="170" alt="streak"/>
-  </a>
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=vivek123r&amp;theme=tokyonight" height="180" alt="top langs"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vivek123r&amp;theme=tokyonight" height="180" alt="trophy"/>
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vivek123r&amp;theme=tokyonight" width="100%" alt="profile details"/>
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=vivek123r&amp;theme=tokyonight&amp;utcOffset=8" width="100%" alt="activity graph"/>
-</div>
-
 ## 🐍 Watch My Contributions Get Eaten
 
 <picture>
