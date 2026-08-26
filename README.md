@@ -125,7 +125,7 @@ I turned hours of manual work into `15s` agent runs.
 <tr>
 <td width="50%" valign="top">
 
-<img src="https://github-readme-stats.vercel.app/api?username=vivek123r&show_icons=true&hide_border=false&bg_color=1B0F2F&title_color=FFD6E7&text_color=D8C3E8&icon_color=FF8FB7&border_color=FF8FB7&include_all_commits=true&count_private=true" alt="GitHub stats" width="100%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=vivek123r&theme=github_dark" alt="GitHub stats" width="100%"/>
 
 </td>
 <td width="50%" valign="top">
