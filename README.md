@@ -1,6 +1,6 @@
 <!-- HERO - Custom Animated SVG (local asset, GitHub-safe SMIL animations) -->
 <div align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Vivek R - Hero Banner"/>
+  <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/hero.svg" width="100%" alt="Vivek R - Hero Banner"/>
 </div>
 
 <!-- TYPING ANIMATION - Hosted SVG (GitHub-safe) -->
@@ -25,7 +25,7 @@
 
 <!-- ANIMATED DIVIDER -->
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="divider"/>
+  <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/divider.svg" width="100%" alt="divider"/>
 </div>
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Light%20Skin%20Tone.png" width="28"/> About Me
@@ -76,11 +76,11 @@ vivek = {
 
 <!-- METRICS STRIP - LOCAL ANIMATED SVG -->
 <div align="center">
-  <img src="./assets/metrics-card.svg" width="100%" alt="metrics"/>
+  <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/metrics-card.svg" width="100%" alt="metrics"/>
 </div>
 
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="divider"/>
+  <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/divider.svg" width="100%" alt="divider"/>
 </div>
 
 ## 🛠️ Tech Stack — Animated & Alive
@@ -187,7 +187,7 @@ Intelligent workflow stitching **Gmail + WhatsApp + Calendar + LLM**.
 </div>
 
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="divider"/>
+  <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/divider.svg" width="100%" alt="divider"/>
 </div>
 
 ## 💼 Experience
@@ -230,7 +230,7 @@ Intelligent workflow stitching **Gmail + WhatsApp + Calendar + LLM**.
 </div>
 
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="divider"/>
+  <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/divider.svg" width="100%" alt="divider"/>
 </div>
 
 ## 📊 GitHub Analytics — Live
@@ -269,7 +269,7 @@ Intelligent workflow stitching **Gmail + WhatsApp + Calendar + LLM**.
 </div>
 
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="divider"/>
+  <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/divider.svg" width="100%" alt="divider"/>
 </div>
 
 ## 🚀 What I'm Cooking Right Now
