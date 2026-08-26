@@ -1,7 +1,6 @@
 <!-- HERO - Custom Animated SVG (local asset, GitHub-safe SMIL animations) -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=6,11,20&amp;height=220&amp;section=header&amp;text=VIVEK%20R&amp;fontSize=75&amp;fontColor=ffffff&amp;animation=fadeIn&amp;desc=Full-Stack%20%7C%20AI%20Agents%20%7C%20Cloud%20Native&amp;descAlignY=76&amp;descAlign=50" width="100%" alt="Vivek R Hero"/>
-  <img src="https://raw.githubusercontent.com/vivek123r/vivek123r/main/assets/hero.svg" width="100%" alt="Vivek R - Custom Animated Banner" style="margin-top:8px"/>
 </div>
 
 <!-- TYPING ANIMATION - Hosted SVG (GitHub-safe) -->
@@ -238,14 +237,14 @@ Intelligent workflow stitching **Gmail + WhatsApp + Calendar + LLM**.
 
 <div align="center">
   <a href="https://github.com/vivek123r">
-    <img src="https://github-readme-stats.vercel.app/api?username=vivek123r&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=22d3ee&amp;icon_color=22d3ee&amp;text_color=cbd5e1&amp;count_private=true&amp;include_all_commits=true" height="170" alt="stats"/>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=vivek123r&amp;theme=tokyonight" height="170" alt="stats"/>
     <img src="https://streak-stats.demolab.com?user=vivek123r&amp;theme=tokyonight&amp;hide_border=true&amp;background=00000000&amp;stroke=22d3ee&amp;ring=22d3ee&amp;fire=22d3ee&amp;currStreakNum=cbd5e1&amp;sideNums=cbd5e1&amp;currStreakLabel=22d3ee&amp;sideLabels=cbd5e1&amp;dates=64748b" height="170" alt="streak"/>
   </a>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivek123r&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=22d3ee&amp;text_color=cbd5e1&amp;langs_count=8&amp;card_width=320" height="180" alt="top langs"/>
-  <img src="https://github-profile-trophy.vercel.app/?username=vivek123r&amp;theme=tokyonight&amp;no-frame=true&amp;no-bg=true&amp;margin-w=6&amp;column=4" height="180" alt="trophy"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=vivek123r&amp;theme=tokyonight" height="180" alt="top langs"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vivek123r&amp;theme=tokyonight" height="180" alt="trophy"/>
 </div>
 
 <div align="center">
@@ -253,7 +252,7 @@ Intelligent workflow stitching **Gmail + WhatsApp + Calendar + LLM**.
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vivek123r&amp;theme=tokyo-night&amp;hide_border=true&amp;bg_color=00000000&amp;color=22d3ee&amp;line=a78bfa&amp;point=22d3ee&amp;area=true&amp;area_color=22d3ee" width="100%" alt="activity graph"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=vivek123r&amp;theme=tokyonight&amp;utcOffset=8" width="100%" alt="activity graph"/>
 </div>
 
 ## 🐍 Watch My Contributions Get Eaten
@@ -281,7 +280,7 @@ Intelligent workflow stitching **Gmail + WhatsApp + Calendar + LLM**.
 <tr>
 <td align="center" width="25%">
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Exploding%20Head.png" width="42"/><br>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="42"/><br>
 <sub><b>Multi-Agent Reasoning</b></sub><br>
 <sub>Optimizing LLM orchestration & confidence scoring</sub>
 
