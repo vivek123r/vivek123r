@@ -11,7 +11,7 @@
 <!-- TYPING LINE -->
 <div align="center">
   <a href="https://github.com/vivek123r">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=FF9EC7&center=true&vCenter=true&width=640&height=50&lines=Full-Stack+Software+Engineer;AI+%26+Agentic+Systems+Builder;React+%C3%97+Flutter+Specialist;Cloud+Infrastructure+Engineer;%E6%A1%9C%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E5%92%B2%E3%81%8F" alt="Typing Animation" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=FF9EC7&center=true&vCenter=true&width=640&height=50&lines=Full-Stack+Software+Engineer;AI+%26+Agentic+Systems+Builder;React+%C3%97+Flutter+Specialist;Cloud+Infrastructure+Engineer;%E6%A1%9C%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E5%92%B2%E3%81%8F" alt="Typing Animation" width="640" height="50"/>
   </a>
 </div>
 

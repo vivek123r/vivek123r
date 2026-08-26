@@ -20,13 +20,7 @@
 </defs>
 
 <!-- back wave -->
-<path fill="url(#footGrad2)" opacity="0.5" d="M0,44 C160,70 320,26 640,48 C920,66 1090,30 1280,52 L1280,190 L0,190 Z">
-  <animate attributeName="d"
-    values="M0,44 C160,70 320,26 640,48 C920,66 1090,30 1280,52 L1280,190 L0,190 Z;
-            M0,44 C160,26 320,72 640,48 C920,32 1090,70 1280,52 L1280,190 L0,190 Z;
-            M0,44 C160,70 320,26 640,48 C920,66 1090,30 1280,52 L1280,190 L0,190 Z"
-    dur="11s" repeatCount="indefinite"/>
-</path>
+<path fill="url(#footGrad2)" opacity="0.5" d="M0,44 C160,70 320,26 640,48 C920,66 1090,30 1280,52 L1280,190 L0,190 Z"/>
 <!-- main wave -->
 <path fill="url(#footGrad)" d="M0,56 C200,28 360,82 640,60 C920,42 1080,80 1280,54 L1280,190 L0,190 Z">
   <animate attributeName="d"
